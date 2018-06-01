@@ -1,0 +1,9 @@
+{{#each items}}
+    <li class='friend-list__item' draggable='true'>
+        <div class='rounded-img'>
+            <img src='{{avatar}}' alt='friend avatar'>
+        </div>
+        <div class='full-name'>{{first_name}} {{last_name}}</div>
+        <button class='cross-button add-button'>&times;</button>
+    </li>
+{{/each}}

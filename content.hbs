@@ -1,0 +1,28 @@
+<div class='filterbox'>
+    <div class='filterbox__header'>
+        <span class='filterbox__text'>Выберите друзей</span>
+    </div>
+    <section>
+        <div class='filterbox__inputs inputs'>
+            <input type='text' class='inputs__item loaded-friends' placeholder='Начните вводить имя друга'>
+            <input type='text' class='inputs__item dnd-friends' placeholder='Название'>
+        </div>
+        <div class='filterbox__friends friends'>
+            <div class='friends__title'>
+                <span class='friends__text column'>Ваши друзья</span>
+                <span class='friends__text column'>Друзья в списке</span>
+            </div>
+            <div class='friends__filter'>
+                <div class='column'>
+                    <ul class='friend-list drop-zone from' id='friends'></ul>
+                </div>
+                <div class='column'>
+                    <ul class='friend-list drop-zone to'></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class='filterbox__footer'>
+        <button id='save' type='button'>Сохранить</button>
+    </div> 
+</div>
